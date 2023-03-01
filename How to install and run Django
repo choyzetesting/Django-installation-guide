@@ -1,0 +1,18 @@
+*To install Djangoon your computer, you can follow these steps*
+
+Step One : Ensure that you have Python installed on your computer. Django requires Python 3.6 or later version. You can download Python from the official website.
+Step two :Once you have installed Python, open the command prompt (for Windows) or terminal (for Mac or Linux) on your computer.
+Step three: In the command prompt or terminal, type the following command to install Django: pip install Django
+Step four : After installing Django, verify the installation by running the following command in the command prompt or terminal: django-admin --version
+The prompt above prompt should display the version of Django installed on your computer.
+
+
+*To run a Django project on your computer, you can follow these steps:
+
+Step one:Create a Django project by opening the command prompt (for Windows) or terminal (for Mac or Linux) and navigate to the directory where you want to create your project. Then, run the following command: django-admin startproject project_name                       
+Your can replace the 'Project_name' with the name of your project.
+Step two:After creating the project, navigate to the project directory using the following command: cd project_name
+Step three: Create a Django app using the following command:           python manage.py startapp app_name
+Step four:After creating the app, you can start the development server using the following command:python manage.py runserver
+This will start the development server at http://localhost:8000/
+Step five:Open a web browser and go to http://localhost:8000/ to see your Django project in action.
