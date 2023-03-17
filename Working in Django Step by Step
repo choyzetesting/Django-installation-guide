@@ -1,0 +1,15 @@
+Project: Create a Django project using the django-admin startproject command.
+
+App: Create a Django app using the python manage.py startapp command.
+
+Models: Define your models in the models.py file within your app.
+
+Migration: Create and apply migration files using the python manage.py makemigrations and python manage.py migrate commands, respectively.
+
+Views: Define your views in the views.py file within your app.
+
+URLs: Define your URLs in the urls.py file within your app.
+
+Templates: Define your templates in the templates directory within your app.
+
+Server: Start the development server using the python manage.py runserver command.
